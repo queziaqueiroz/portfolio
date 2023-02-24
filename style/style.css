@@ -116,12 +116,10 @@ body {
     border: 3px solid var(--cor-terciaria);
     border-radius: 18px;
     width: 50%;
-
-
 }
 
 .apresentacao__experiencia__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -140,7 +138,7 @@ body {
 }
 
 .apresentacao__experiencia__conteudo__titulo__texto{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 
@@ -158,6 +156,9 @@ body {
     }
 
     .apresentacao__conteudo {
+        width: auto;
+    }
+    .apresentacao__experiencia__conteudo{
         width: auto;
     }
 }
