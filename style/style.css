@@ -108,7 +108,7 @@ body {
 }
 
 .rodape {
-    padding: 24px;
+    padding: 10px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
@@ -145,6 +145,11 @@ body {
 .apresentacao__experiencia__conteudo__titulo__texto{
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
+}
+.apresentacao__experiencia__conteudo__titulo__curso{
+        font-size: 1.0rem;
+        font-family: var(--fonte-primaria);
+        gap: 5px;
 }
 
 @media (max-width: 1200px) {
